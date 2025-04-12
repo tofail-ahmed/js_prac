@@ -49,7 +49,9 @@
       let num = 10;
       while (num <= 50) {
         if (num % 2 == 0) {
-      //     console.log(`${num}/2=${num / 2}`);
+          console.log(`${num}/2=${num / 2}`);
+        }else{
+          console.log(num)
         }
         num++;
       }
