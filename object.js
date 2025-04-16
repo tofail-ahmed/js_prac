@@ -149,9 +149,25 @@ for (const key in article){
       const keys=Object.keys(building)
       const values=Object.values(building)
       for(const index in keys){
-            console.log(keys[index])
+            // console.log(keys[index])
       }
       for(const index in values){
-            console.log(values[index])
+            // console.log(values[index])
       }
+}
+
+
+{
+      const person={
+            name:"Alice",
+            age:25,
+            country:"Bangladesh"
+      }
+     
+      // Object.freeze(person)
+      Object.seal(person)
+       person.age=29
+      person.name="Sayem"
+      delete person.age
+      console.log(person)
 }
