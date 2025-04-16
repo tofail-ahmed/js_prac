@@ -164,7 +164,7 @@ num++
       break
     }
    
-    console.log(i)
+    // console.log(i)
     i++
   }
 }
