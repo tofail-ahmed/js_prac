@@ -112,3 +112,46 @@ for (const key in article){
       // console.log(key, value)
 }
 }
+
+{
+      const phone={
+            brand:"samsung",
+            model:"galaxy s21",
+            price:85000
+      }
+      const keys=Object.keys(phone)
+      // console.log(keys)
+      for(const key of keys){
+            // console.log(key)
+      }
+}
+
+{
+      const numbers={
+            a:10,
+            b:20,
+            c:30,
+            d:40
+      }
+      const values=Object.values(numbers)
+      const sum=(values.reduce((a,c)=>a+c,0))
+      // console.log(sum)
+}
+{
+      const building={
+            floors:10,
+            address:{
+                  street:"main road",
+                  city:"Dhaka"
+            },
+            type:"Commercial"
+      }
+      const keys=Object.keys(building)
+      const values=Object.values(building)
+      for(const index in keys){
+            console.log(keys[index])
+      }
+      for(const index in values){
+            console.log(values[index])
+      }
+}
