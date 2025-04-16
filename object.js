@@ -81,3 +81,34 @@ const teachers=[
             // console.log(key,value)
       }
 }
+
+
+{
+      const book={
+            name:"javascript marhaba",
+            author:"Jhankar Mahbub",
+            price:580,
+            pages:448
+      }
+
+      for(const key in book){
+            const value=book[key]
+            // console.log(key,value)
+      }
+      // console.log(Object.keys(book))
+      // console.log(Object.values(book))
+      // console.log(Object.entries(book))
+}
+
+{
+      const article={
+            title:"js dhamaka",
+            category:"programming"
+      }
+      const articleKeys=Object.keys(article)
+// console.log(articleKeys.includes("title"))
+for (const key in article){
+      const value=article[key]
+      // console.log(key, value)
+}
+}
