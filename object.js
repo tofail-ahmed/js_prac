@@ -169,5 +169,17 @@ for (const key in article){
        person.age=29
       person.name="Sayem"
       delete person.age
-      console.log(person)
+      // console.log(person)
+}
+
+{
+      const food={
+            name:"fizza",
+            price:500,
+            size:"large"
+      }
+      Object.seal(food);
+      food.name="burger"
+      food.shop="burgerizza"
+      // console.log(food)
 }
