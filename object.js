@@ -181,5 +181,5 @@ for (const key in article){
       Object.seal(food);
       food.name="burger"
       food.shop="burgerizza"
-      // console.log(food)
+      console.log(food)
 }
