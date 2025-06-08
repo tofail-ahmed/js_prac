@@ -27,6 +27,11 @@ const randomFamily=()=>{
 const multipleFunc=(param1,param2,param3)=>{
       const  multiply=param1*param2;
       if(multiply>param3){
-            console.log(object)
+            // console.log(object)
+            // console.log(object)
+            // console.log(object)
+            // console.log(object)
+            // console.log(object)
+            // console.log(object)
       }
 }
